@@ -1,5 +1,5 @@
 FROM node:6.10.0
 
-MAINTAINER Eetu Tuomala <eetu.tuomala@sc5.io>
+LABEL maintainer="laardee@outlook.com"
 
 RUN npm install serverless@1.14.0 -g
